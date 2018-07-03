@@ -42,6 +42,6 @@ int main(int argc, char *argv[])
 	{
 		cout << "\e[3" << c << ";4" << c << "m0";
 		fflush(stdout);
-		usleep(500 * 1000);
+		usleep(60 * 1000);
 	}
 }
