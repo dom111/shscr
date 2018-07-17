@@ -21,3 +21,4 @@ sudo mv [name] /bin/[name]
 * ```snake```:  a "snake" of the users choice color slowly consumes the terminal
 * ```vastro```:  ```astro```, with dimmness in some stars (This is my favorite shSS!)
 * ```vrain```:  random shades of blue rain fall on the terminal
+* ```rpix```:  randomly colored "pixels"
