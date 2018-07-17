@@ -22,3 +22,4 @@ sudo mv [name] /bin/[name]
 * ```vastro```:  ```astro```, with dimmness in some stars (This is my favorite shSS!)
 * ```vrain```:  random shades of blue rain fall on the terminal
 * ```rpix```:  randomly colored "pixels"
+* ```rblock```:  randomly colored "blocks"
