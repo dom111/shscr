@@ -5,10 +5,10 @@ Screen savers in the bash shell.
 
 To run the screen savers type the command below
 ```
-sudo mv [name] /bin/[name]
+sudo mv(cp) [module] /bin/[module]
 ```
 
-# Screen Savers
+# Modules
 
 * ```astro```:  simple star field with random star placements
 * ```blank```:  makes the entire terminal blank
