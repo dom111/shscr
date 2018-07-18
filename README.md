@@ -3,7 +3,7 @@ Screen savers in the bash shell.
 
 # Set Up
 
-After unpacing the tar ball, type the command below:
+After unpacking the tar ball, type the command below:
 
 ```
 ./installsh
