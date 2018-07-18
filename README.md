@@ -1,5 +1,5 @@
-# shSS
-Screen savers in the bash shell.
+# SHSS
+SHSS has screen savers!
 
 # Set Up
 
@@ -33,4 +33,4 @@ To open the module launcher or just type the module name anywhere, anytime in yo
 
 # Contributing
 
-If you have an idea for a module, or already have source code and a compiled program, I'll be glad to add it to shSS!
+If you have an idea for a module, or already have source code and a compiled program, I'll be glad to add it to SHSS!
