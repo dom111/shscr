@@ -11,7 +11,7 @@ After unpacking the tar ball, type the command below:
 Then type:
 
 ```
-./shSS
+./SHSS
 ```
 To open the module launcher or just type the module name anywhere, anytime in your terminal!
 
