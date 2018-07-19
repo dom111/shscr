@@ -15,6 +15,8 @@ int main()
 	struct winsize size;
 	ioctl(STDOUT_FILENO,TIOCGWINSZ,&size);
 	
+	srand(time(NULL));
+		
 	while(true)
 	{
 		int col = size.ws_col-1;
