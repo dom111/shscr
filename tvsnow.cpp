@@ -14,6 +14,8 @@ int main()
 	
 	string index_colors[] = {"30;40", "97;107"};
 	
+	srand(time(NULL));
+	
 	while(true)
 	{
 		
