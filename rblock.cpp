@@ -13,6 +13,8 @@ int main()
 	
 	string index_colors[] = {"93", "91", "92", "94", "95"};
 	
+	srand(time(NULL));
+
 	while(true)
 	{
 		for(int i = 0; i < size.ws_col-1; i++)
