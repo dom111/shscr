@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <time.h>
 #include <unistd.h>
-#include <term.h>
+#include <stdlib.h>
 
 
 using namespace std;
@@ -11,6 +11,8 @@ using namespace std;
 int main()
 {
 	system("clear");
+	srand(time(NULL));
+
 	while(true)
 	{
 		cout << "\e[92m" << rand()%2;
