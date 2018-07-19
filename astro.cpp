@@ -7,6 +7,7 @@
 #include <stdlib.h>
 #include <sys/ioctl.h>
 #include <stdio.h>
+#include <time.h>
 
 using namespace std;
 
@@ -15,6 +16,8 @@ int main()
 	struct winsize size;
 	ioctl(STDOUT_FILENO,TIOCGWINSZ,&size);
 	
+	srand(time(NULL));	
+
 	while(true)
 	{
 		int col = size.ws_col-1;
