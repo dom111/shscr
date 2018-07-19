@@ -30,7 +30,7 @@ To open the module launcher or just type the module name anywhere, anytime in yo
 * ```rblock```:  randomly colored "blocks"
 * ```planitis```:  similar to vastro, but with planets, not stars
 * ```tvsnow```:  TV static in the terminal, based on the snow screensaver for DOS
-
+* ```gook```:  slowy prints out random letters, numbers, and the occasional space
 # Contributing
 
 If you have an idea for a module, or already have source code and a compiled program, I'll be glad to add it to SHSS!
