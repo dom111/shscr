@@ -4,6 +4,7 @@
 #include <time.h>
 #include <unistd.h>
 #include <stdlib.h>
+#include <sys/ioctl.h>
 
 
 using namespace std;
@@ -11,10 +12,20 @@ using namespace std;
 int main()
 {
 	system("clear");
+
+	struct winsize size;
+	ioctl(STDOUT_FILENO,TIOCGWINSZ,&size);
+	srand(time(NULL));
+
 	while(true)
 	{
-		cout << "\e[92m" << rand()%2;
+		for(int i = 0; i < size.ws_col-1; i++)
+		{
+			cout << "\e[92m" << rand()%2;
+		}
+	
+		cout << "\n";
 		fflush(stdout);
-		usleep(3);
+		usleep(50 * 1000);
 	}
 }
