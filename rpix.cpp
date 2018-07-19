@@ -12,6 +12,8 @@ int main()
 	ioctl(STDOUT_FILENO,TIOCGWINSZ,&size);
 	
 	string index_colors[] = {"93", "91", "92", "94", "95"};
+
+	srand(time(NULL));	
 	
 	while(true)
 	{
