@@ -4,6 +4,7 @@
 #include <fstream>
 #include <sstream>
 #include <unistd.h>
+#include <time.h>
 
 using namespace std;
 
@@ -12,7 +13,9 @@ int main()
 	system("clear");
 	string index[] = {"`", "~", "!" , "@", "#", "$", "%", "^", "&", "*", "(", ")", "-", "_", "=", "+", "[", "{", "]", "}", "\\", "|", ";", ":", "'", "\"", ",", "<", ".", ">", "/", "?"};
 	string index_colors[] = {"93", "91", "92", "94", "95"};
+	srand(time(NULL));
 	
+
 	while(true)
 	{
 		
