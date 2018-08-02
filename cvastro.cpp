@@ -26,7 +26,7 @@ int main()
 	while(true)
 	{
 		cout << "\033[" << rand()%rowx << ";" << rand()%sizex << "f";
-		cout << "\e[" << index[rand()%4] << "m" << " . " << "\e[0m";		
+		cout << "\e[" << index[rand()%4] << "m" << "          " << " . " << "\e[0m";		
 		fflush(stdout);
 		usleep(10 * 1000);
 	}
