@@ -1,6 +1,8 @@
 # SHSS
 SHSS has screen savers!
 
+[![Deepin_Screenshot_select-area_20180802164143.png](https://s15.postimg.cc/5ahvbzwez/Deepin_Screenshot_select-area_20180802164143.png)](https://postimg.cc/image/mns5qurpz/)
+
 # Set Up
 
 Move all the files from the tar ball to ```/bin``` using ```mv``` or ```cp```
