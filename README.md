@@ -34,7 +34,9 @@ Move all the files from the tar ball to ```/bin``` using ```mv``` or ```cp```
 * ```cvastro```: ```cdotfill``` and ```vastro``` combined
 * ```life```: artifical "life" moves radomly and grows in the terminal
 * ```aawaves```: ascii art waves
-* ```clife```: ```life``` with colors :)
+* ```clife```: ```life``` with colors
+* ```plife```: ```life``` with random pipe characters
+* ```nlife```: ```life``` with random numbers
 
 # Contributing
 
