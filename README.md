@@ -41,6 +41,8 @@ Move all the files from the tar ball to ```/bin``` using ```mv``` or ```cp```
 * ```fstix```: ```stix``` but with no drawing animation
 * ```vstix```: ```stix``` but with vertical lines
 * ```vfstix```: ```vstix``` but with no drawing animation
+* ```bstix```: ```stix``` but with lines going in two different directions
+* ```bfstix```: ```bstix``` but with no drawing animation
 
 # Contributing
 
