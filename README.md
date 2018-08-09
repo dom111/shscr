@@ -37,6 +37,10 @@ Move all the files from the tar ball to ```/bin``` using ```mv``` or ```cp```
 * ```clife```: ```life``` with colors
 * ```plife```: ```life``` with random pipe characters
 * ```nlife```: ```life``` with random numbers
+* ```stix```:  randomly colored sticks that draw across the string
+* ```fstix```: ```stix``` but with no drawing animation
+* ```vstix```: ```stix``` but with vertical lines
+* ```vfstix```: ```vstix``` but with no drawing animation
 
 # Contributing
 
