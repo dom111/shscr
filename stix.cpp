@@ -36,7 +36,7 @@ int main(int argc, char *argv[])
 		{
 			counter++;	
 			cout << "\e[" << color << ";1" << "m";
-			cout << "\\";
+			cout << "╲";
 			cout << "\e[0m";
 			fflush(stdout);
 			usleep(50 * 1000);
