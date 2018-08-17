@@ -20,9 +20,12 @@ int main(int argc, char *argv[])
 
 	srand(time(NULL));
 	
-	int sizex = size.ws_col-10;
-	
-	int rowx = size.ws_row-10;
+	int sizexx = size.ws_col-10;	
+
+
+	int rowxx = size.ws_row-10;
+
+
 	
 	string index[] = {"91", "33", "93", "92", "94", "35", "95", "96"};
 
@@ -36,8 +39,8 @@ int main(int argc, char *argv[])
 		
 		string mov;
 		
-		cout << "\033[" << rand()%rowx << ";" << rand()%sizex << "f";
-		string color = index[rand()%8];
+		cout << "\033[" << rand()%rowxx << ";" << rand()%sizexx << "f";
+		string color = to_string(rand()%256);
 		if(sel == 0)
 		{
 			l_seg = "╲";
@@ -50,7 +53,7 @@ int main(int argc, char *argv[])
 		while(counter <= 10)
 		{
 			counter++;	
-			cout << "\e[" << color << ";1" << "m";
+			cout << "\e[38;5;" << color << ";1" << "m";
 			cout << l_seg;
 			cout << "\e[0m";
 			fflush(stdout);
