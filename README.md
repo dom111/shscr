@@ -43,6 +43,7 @@ Move all the files from the tar ball to ```/bin``` using ```mv``` or ```cp```
 * ```vfstix```: ```vstix``` but with no drawing animation
 * ```bstix```: ```stix``` but with lines going in two different directions
 * ```bfstix```: ```bstix``` but with no drawing animation
+* ```256```: 256 colors
 
 # Contributing
 
