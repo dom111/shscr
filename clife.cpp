@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
 	
 	if(argc == 1)
 	{
-		ico = "|";
+		ico = "*";
 	}
 	else
 	{
@@ -25,15 +25,18 @@ int main(int argc, char *argv[])
 	system("setterm -cursor off");
 
 	string index[] = {"\033[1A", "\033[1B", "\033[1C", "\033[1D", "\033[1C", "\033[1D"};
-	
-	string indexc[] = {"31", "32", "34", "90","31;1", "32;1", "34;1", "90;1"};
+
+	struct winsize size;
+	ioctl(STDOUT_FILENO,TIOCGWINSZ,&size);
 
 	srand(time(NULL));
+
+	cout << "\033[" << rand()%size.ws_row << ";" << rand()%size.ws_col << "f";
 
 	while(true)
 	{
 		cout << index[rand()%6];
-		cout << "\e[" << indexc[rand()%8] << "m" << ico << "\e[0m";
+		cout << "\e[38;5;" << to_string(rand()%256) << "m" << ico << "\e[0m";
 		cout << "\033[1D";
 		fflush(stdout);
 		usleep(10 * 1000);
