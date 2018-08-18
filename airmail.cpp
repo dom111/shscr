@@ -46,7 +46,7 @@ int main(int argc, char *argv[])
 		cout << "\033[" << rand()%rowx << ";" << rand()%sizex << "f";
 		if(check2 == 1)
 		{
-			cout << "\e[" << index[rand()%7] << "m" << ui << "\e[0m";
+			cout << "\e[38;5;" << to_string(rand()%256) << "m" << ui << "\e[0m";
 			fflush(stdout);
   			usleep(50 * 1000);
 		}
