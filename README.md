@@ -44,6 +44,8 @@ Move all the files from the tar ball to ```/bin``` using ```mv``` or ```cp```
 * ```bstix```: ```stix``` but with lines going in two different directions
 * ```bfstix```: ```bstix``` but with no drawing animation
 * ```256```: 256 colors
+* ```blockbuster```: randomly colored, randomly sized blocks fills the terminal
+* ```dblockbuster```: ```blockbuster``` but with a visible drawing animation
 
 # Contributing
 
