@@ -47,4 +47,4 @@ Move all the files from the tar ball to ```/bin``` using ```mv``` or ```cp```
 
 # Contributing
 
-If you have an idea for a module, or already have source code and a compiled program, I'll be glad to add it to SHSS!
+If you have an idea for a module, or already have source code and a compiled program, I'll be glad to add it to SHSCR!
