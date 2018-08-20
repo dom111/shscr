@@ -20,17 +20,17 @@ int main(int argc, char *argv[])
 
 	srand(time(NULL));	
 	
-	int sizex = size.ws_col-10;
+	int sizex = size.ws_col-15;
 	
-	int rowx = size.ws_row-10;
+	int rowx = size.ws_row-15;
 
 	while(true)
 	{
 		int counter = 0;
 		
-		cout << "\033[" << rand()%rowx << ";" << rand()%sizex << "f";
+		cout << "\033[" << rand()%rowx << ";" << rand() % (sizex - 15) + 15 << "f";
 		string color = to_string(rand()%256);
-		while(counter <= 10)
+		while(counter <= 15)
 		{
 			counter++;	
 			cout << "\e[38;5;" << color << ";1" << "m";
