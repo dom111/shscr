@@ -5,7 +5,7 @@ SHSS has screen savers!
 
 # Set Up
 
-Move all the files from the tar ball to ```/bin``` using ```mv``` or ```cp```
+Move all the files from the tar ball to ```/usr/bin/``` using ```mv``` or ```cp```
 
 # Modules
 
