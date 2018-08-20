@@ -45,6 +45,8 @@ Move all the files from the tar ball to ```/usr/bin/``` using ```mv``` or ```cp`
 * ```256```: 256 colors
 * ```blockbuster```: randomly colored, randomly sized blocks fills the terminal
 * ```dblockbuster```: ```blockbuster``` but with a visible drawing animation
+* ```blocklife```: ```blockbuster``` and ```life``` combined
+* ```blockfloat```: a color changing block teleports around the terminal
 
 # Contributing
 
