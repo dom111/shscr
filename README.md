@@ -1,5 +1,5 @@
 # SHSCR
-SHSS has screen savers!
+SHSCR is short for Shell Screen or Shell Screen Saver. It is a collection of programs or "modules" that do interesting things with terminal graphics
 
 [![Deepin_Screenshot_select-area_20180802164143.png](https://s15.postimg.cc/5ahvbzwez/Deepin_Screenshot_select-area_20180802164143.png)](https://postimg.cc/image/mns5qurpz/)
 
