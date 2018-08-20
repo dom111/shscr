@@ -22,8 +22,7 @@ Move all the files from the tar ball to ```/usr/bin/``` using ```mv``` or ```cp`
 * ```rblock```:  randomly colored "blocks"
 * ```rainbow```: rainbow
 * ```planitis```:  similar to vastro, but with planets, not stars
-* ```tvsnow```:  TV static in the terminal, based on the snow screensaver for DOS
-* ```ltvsnow```:  ```tvsnow``` for larger monitors
+* ```snow```:  TV static in the terminal, based on the snow screensaver for DOS
 * ```gook```:  slowy prints out random letters, numbers, and the occasional space
 * ```gookn```:  ```gook``` with a ```\n``` every so often
 * ```dotfill```:  slowly fills the screen with multicolored dots
