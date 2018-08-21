@@ -47,6 +47,8 @@ Move all the files from the tar ball to ```/usr/bin/``` using ```mv``` or ```cp`
 * ```dblockbuster```: ```blockbuster``` but with a visible drawing animation
 * ```blocklife```: ```blockbuster``` and ```life``` combined
 * ```blockfloat```: a color changing block teleports around the terminal
+* ```blockbusterx```: ```blockbuster``` at a different angle
+* ```blockshade```: ```blockbuster``` but the squares are shaded
 
 # Contributing
 
