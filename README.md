@@ -1,5 +1,9 @@
-# SHSCR
+# shtSCR
 SHSCR is short for Shell Screen or Shell Screen Saver. It is a collection of programs or "modules" that do interesting things with terminal graphics
+```diff
++ this will be highlighted in green
+- this will be highlighted in red
+```
 
 [![Deepin_Screenshot_select-area_20180802164143.png](https://s15.postimg.cc/5ahvbzwez/Deepin_Screenshot_select-area_20180802164143.png)](https://postimg.cc/image/mns5qurpz/)
 
@@ -49,7 +53,11 @@ Move all the files from the tar ball to ```/usr/bin/``` using ```mv``` or ```cp`
 * ```blockfloat```: a color changing block teleports around the terminal
 * ```blockbusterx```: ```blockbuster``` at a different angle
 * ```blockshade```: ```blockbuster``` but the squares are shaded
+* ```blockshadow```: ```blockbuster``` but more 3D looking
+* ```rblockshadow```: ```blockshadow``` but with more realistic shadows
+
+# The Best of shSCR
 
 # Contributing
 
-If you have an idea for a module, or already have source code and a compiled program, I'll be glad to add it to SHSCR!
+If you have an idea for a module, or already have source code and a compiled program, I'll be glad to add it to shSCR!
