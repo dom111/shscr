@@ -48,6 +48,10 @@ int main(int argc, char *argv[])
 			cout << "\033[1B";
 			cout << "\033[" << b_size << "D";
 		}
+		for(int i = 0; i < b_size; i++)
+		{
+			cout << color << "░" << "\e[0m";
+		}
 		fflush(stdout);
 		usleep(10 * 1000);
 	}
